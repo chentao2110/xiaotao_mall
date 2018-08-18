@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.soushuo{
+    height: 100px;
+
+}
+.soushuo .logo{
+    float: left;
+    height: 100px;
+    width: 270px;
+}
+.soushuo .logo img{
+    height: 100px;
+    width: 270px;
+}
+
+.soushuo .server {
+    float: left;
+    margin-top: 30px;
+    width: 900px;
+}
+.soushuo .server .search{
+    padding-left: 80px;
+    float: left;
+}
+.search input{
+    padding-left: 3px;
+    height: 36px;
+    width: 400px;
+    border: 1px solid #f06629;
+    margin: 0;
+    float: left;
+    font: 400 16px/24px "微软雅黑 Light";
+}
+.search button{
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+    height: 38px;
+    width: 80px;
+    background-color: #f06629;
+    cursor: pointer;
+    font: 500 16px/37px "华文宋体";
+}
+.server .car{
+    float: right;
+    height: 20px;
+    width: 120px;
+    border: 2px solid #ff8629;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.car .carimg {
+    width: 12px;
+    height: 12px;
+    float: left;
+    padding-left: 10px;
+}
+.car .carimg span{
+    float: left;
+    background: url("../image/icons/jinglin1.png") no-repeat 0 -58px;
+    width: 20px;
+    height: 20px;
+}
+.car  .ziti{
+    margin-left: 35px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.car  .ziti .number{
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+.car  .ziti .number span{
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px 20px 20px 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.classification{
+    float: left;
+    height: 40px;
+    width: 190px;
+}
+.classification .leftclass{
+    height: 40px;
+    width: 190px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.classification .leftclass a{
+    color: white;
+}
+.classification .leftclass a:hover{
+
+}
+.classification .leftclass .all{
+    position: relative;
+    height: 40px;
+    width: 190px;
+    float: left;
+    background-color: #ff8629;
+}
+
+.all i{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: url("../image/icons/jinglin.png") no-repeat 0 0;
+    top: 15px;
+    left: 13px;
+}
+.all span{
+    display: block;
+    height: 40px;
+    width: 190px;
+    font: 600 18px/40px "微软雅黑 Light";
+    text-align: center;
+}
+.classification .apo{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #9f9f9f;
+    z-index: 2;
+}
+.apo ul>li{
+    height: 40px;
+    width: 190px;
+    font: 400 16px/40px "微软雅黑 Light";
+}
+.apo ul>li div{
+    float: left;
+    margin-right: 15px;
+}
+.activity{
+    float: left;
+    height: 40px;
+    width: 780px;
+
+}
+.activity ul li{
+
+    float: left;
+    height: 40px;
+    width: 90px;
+    font:400 16px/40px "微软雅黑 Light";
+    text-align: center;
+}
+.activity ul li.hot{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.activity ul li.hot i{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../image/icons/jinglin.png") no-repeat -345px -213px;
+    top: -5px;
+    left: 65px;
+}
+.activity ul li a{
+    display: block;
+    height: 40px;
+    width: 90px;
+}
+.activity ul>li a:hover{
+    background-color: #ffe48d;
+}

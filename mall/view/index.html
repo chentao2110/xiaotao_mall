@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小淘商城</title>
+    <link rel="shortcut icon" href="../image/icons/favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/head-nav.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/real-head.css">
+    <!--上面是本页面要引入的文件，下面是easyui要引入的文件-->
+    <script src="../jQuery/jquery-1.11.3.min.js"></script>
+    <script src="../jQuery/jquery.easyui.min.js"></script>
+    <link rel="stylesheet" href="../css/easyui.css">
+    <link rel="stylesheet" href="../css/icon.css">
+    <script src="../js/easyui-lang-zh_CN.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="nav clearfix"></div>
+    <div class="daohang clearfix">
+
+    </div>
+</div>
+<div class="content">
+    <div class="guangao">
+        <div class="w">
+
+        </div>
+    </div>
+    <div class="display">
+        <div class="floor1"></div><!--一楼是手机数码-->
+        <div class="floor2"></div><!--二楼是家用电器-->
+        <div class="floor3"></div><!--三楼是服装-->
+        <div class="floor4"></div><!--四楼是零食-->
+        <div class="floor5"></div><!--五楼是生鲜-->
+        <div class="floor6"></div><!--六楼是酒水-->
+    </div>
+</div>
+<div class="foot">
+
+</div>
+</body>
+
+<script>
+    $(function () {
+        $(".foot").load("layout/footer.html");
+        $(".nav").load("layout/head-nav.html");
+        $(".daohang").load("layout/real-head.html");
+    })
+</script>
+</html>

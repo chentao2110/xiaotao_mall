@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.wrap{
+
+    width: 100%;
+}
+span.fenge{
+    color: #d1d1d1;
+}
+.wrap dl{
+    float: left;
+    margin: 10px 100px;
+}
+.wrap dl dt{
+    font-size: 18px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 800;
+}
+.wrap dl dd{
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "华文宋体";
+}
+.footer{
+    height: 250px;
+    background-color: #e8e8e8;
+}
+.link{
+    overflow: hidden;
+    width: 477px;
+    margin: 0 auto;
+}
+.firstlink{
+    overflow: hidden;
+    width: 850px;
+    margin: 0 auto
+}
+.link span{
+    margin-right: 5px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.firstlink span{
+    margin-right: 5px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.link>a{
+
+    margin-right: 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.firstlink>a{
+
+    margin-right: 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.right{
+    width: 500px;
+    margin: 0 auto;
+}

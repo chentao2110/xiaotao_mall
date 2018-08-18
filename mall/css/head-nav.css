@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.wrap .navleft{
+    float: left;
+
+}
+.wrap .navleft a:hover{
+   color: #f06629;
+}
+.wrap li.fenge{
+    margin:0 6px 4px;
+}
+.wrap .navleft li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+
+}
+.wrap .navleft li a{
+    float: left;
+    display: block;
+    height: 30px;
+}
+.wrap .navleft li span {
+    display: block;
+    height: 30px;
+}.wrap .navleft li .addpho{
+    height: 12px;
+    width: 12px;
+    margin-top: 6px;
+ }
+.wrap .navleft li.address span.address{
+    background: url("../image/icons/jinglin.png") no-repeat -387px -183px;
+}
+.wrap .navleft li.address .ziti{
+    width: 30px;
+    padding-left: 15px;
+}
+.wrap .navright {
+    float: right;
+}
+.wrap .navright li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+
+}
+.wrap .navright a:hover{
+    color: #f06629;
+}
+.wrap .navright li a{
+    float: left;
+    display: block;
+    height: 30px;
+}
+.wrap .navright li span {
+    display: block;
+    height: 30px;
+}
+.wrap li.icon{
+    width: 70px;
+}
+.wrap li.icon div{
+    width: 12px;
+    height: 15px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 5px;
+    overflow: hidden;
+    margin-top: 13px;
+}
+.wrap li.icon div>span{
+    position: absolute;
+    top: -14px;
+    left: 0;
+}
